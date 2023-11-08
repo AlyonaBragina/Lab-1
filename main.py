@@ -38,8 +38,8 @@ lst = []
 listnew=[]
 for number in file:
     lst.append(float(number))
-for i in range(len(lst)):
-    if lst[i]>-3 and  lst[i]<3:
+for i in lst:
+    if i>-3 and  i<3:
         listnew.append(i)
 file.close()
 print(listnew)
