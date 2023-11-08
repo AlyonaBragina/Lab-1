@@ -39,7 +39,7 @@ listnew=[]
 for number in file:
     lst.append(float(number))
 for i in range(len(lst)):
-    if int(lst[i])>-3 and  int(lst[i])<3:
+    if lst[i]>-3 and  lst[i]<3:
         listnew.append(i)
 file.close()
 print(listnew)
