@@ -33,12 +33,12 @@
 #         print(0,'  ','3 6 9121518')
 
 #TASK4
-file = open('C:/Users/Tata/Desktop/АЛЁНА/ИТМО/Програмирование Питон/Lab-1/sequence1.txt')
-list = []
+file = open('sequence.txt')
+lst = []
 listnew=[]
 for number in file:
-    list.append(float(number))
-for i in range(list):
+    lst.append(float(number))
+for i in range(len(lst)):
     if i>-3 and i<3:
         listnew.append(i)
 file.close()
